@@ -4,58 +4,53 @@ DUKE-ECE568-FINAL
 
 #### Step
 
-1. ##### Run world simulator
+- ##### Install Google Protobuf
+
+  Follow the instruction on https://github.com/protocolbuffers/protobuf
+
+- ##### Create database ups_db (first time)
+
+​	Type `sudo -u postgres psql` . Create a database named "ups_db" : `CREATE DATABASE ups_db`
+
+- ##### Run world simulator
+
+  ```shell
+  cd world_simulator_exec-master/docker_deploy
+  sudo docker-compose build #first time
+  sudo docker-compose up
+  ```
+
+- ##### Run ups backend
 
    ```shell
-   cd world_simulator_exec-master/docker_deploy
-   sudo docker-compose build #first time
-   sudo docker-compose up
-   ```
-
-2. ##### Run amazon server
-
-   ```shell
-   cd testing
+   cd backend_fortest
    # for <option>
    # 0: make and run program.
    # 1: rebuild program
    # 2: rebuild libprotocpl.a and then rebuild program
-   ./test.sh <world_simulator_host> <ups_host> <option> 
-   ```
-
-3. ##### Run frontend(can skip this step)
-
-   ```shell
-   cd frontend/upssite/
-   python3 manage.py makemigrations #first time
-   python3 manage.py migrate #first time
-   python3 manage.py run 0.0.0.0:8000
-   ```
-
-   Visit the website in local machine with url "<vm_addr>:8000/ups"
-
-4. ##### Run ups server
-
-   ```shell
-   cd backend_fortest
    ./run.sh <world_simulator_host> <amazon_host> <option> 
    ```
 
+- ##### Run ups frontend
+
+  ```shell
+  cd frontend/upssite
+  python3 manage.py migrate #first time
+  python3 manage.py run 0.0.0.0:8000
+  ```
+
+  Visit the website in local machine with url "<vm_addr>:8000/ups/home"
+
+- ##### Simple test
+
+   ```shell
+   cd testing
+   ./test.sh <world_simulator_host> <ups_host> <option> 
+   ```
+
+- ##### Test with Mini-Amazon
+
    
-
-#### Install Google Protobuf
-
-Follow the instruction on https://github.com/protocolbuffers/protobuf
-
-#### Compile Protocol Buffers
-
-Follow the instruction on https://developers.google.com/protocol-buffers/docs/cpptutorial
-
-```shell
-protoc -I=protocolfiles --cpp_out=protocolcodes protocolfiles/world_ups.proto
-```
-
-
 
 #### Team Document
 
