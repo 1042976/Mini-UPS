@@ -10,7 +10,7 @@ DUKE-ECE568-FINAL
 
 - ##### Create database ups_db (first time)
 
-​		Type `sudo -u postgres psql` . Create a database named "ups_db" : `CREATE DATABASE ups_db`
+  Type `sudo -u postgres psql` . Create a database named "ups_db" : `CREATE DATABASE ups_db`
 
 - ##### Run world simulator
 
