@@ -5,33 +5,4 @@ shipid: 1
 x: 2
 y: 3
 
-[frontend_handler]sendChangeAddResp!
-[frontend_handler]seqnum: 1
-shipid: 2
-x: 1
-y: 3
-
-[frontend_handler]sendChangeAddResp!
-[frontend_handler]seqnum: 1
-shipid: 3
-x: 3
-y: 3
-
-[frontend_handler]sendChangeAddResp!
-[frontend_handler]seqnum: 1
-shipid: 4
-x: 4
-y: 5
-
-[frontend_handler]sendChangeAddResp!
-[frontend_handler]seqnum: 1
-shipid: 1
-x: 2
-y: 3
-
-[frontend_handler]sendChangeAddResp!
-[frontend_handler]seqnum: 1
-shipid: 5
-x: 4
-y: 6
-
+[frontend_handler]Front End disconnected
