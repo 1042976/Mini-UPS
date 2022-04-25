@@ -350,25 +350,12 @@ void WorldSimulatorHandler::handleUErr(const UErr &uErr){
     const Reflection *reflection = uCommands.GetReflection();
     std::string name;
     std::lock_guard <std::mutex> lck(mtx);
-    if(seqNumQWaitToDelete.count(ori_seq)){
+    if(commandHashMap.count(ori_seq) || seqNumQWaitToDelete.count(ori_seq) || seqNumQToDelete.count(ori_seq)){
         Message* new_entry = getNewAllocatedMessage(seqNumQWaitToDelete[ori_seq].get());
         name = seqNumQWaitToDelete[ori_seq]->GetDescriptor()->name();
         const FieldDescriptor * fieldDescriptor = descriptor->FindFieldByName(nameInUCommands[name]);
         reflection->AddAllocatedMessage(&uCommands, fieldDescriptor, new_entry);
-    }
-    else if(seqNumQToDelete.count(ori_seq)){
-        Message* new_entry = getNewAllocatedMessage(seqNumQToDelete[ori_seq].get());
-        name = seqNumQToDelete[ori_seq]->GetDescriptor()->name();
-        const FieldDescriptor * fieldDescriptor = descriptor->FindFieldByName(nameInUCommands[name]);
-        reflection->AddAllocatedMessage(&uCommands, fieldDescriptor, new_entry);
-    }
-    else if(commandHashMap.count(ori_seq)){
-        Message* new_entry = getNewAllocatedMessage(commandHashMap[ori_seq].get());
-        name = commandHashMap[ori_seq]->GetDescriptor()->name();
-        const FieldDescriptor * fieldDescriptor = descriptor->FindFieldByName(nameInUCommands[name]);
-        reflection->AddAllocatedMessage(&uCommands, fieldDescriptor, new_entry);
-    }
-    else{
+    }else{
         //printLog(uErr.err());
         return;
     }
