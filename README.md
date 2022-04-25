@@ -15,7 +15,7 @@ DUKE-ECE568-FINAL
   sudo apt-get libssl-dev libxerces-c-dev libpqxx-dev #Libaries
   ```
 
-​		For protobuf,  Follow the instruction on https://github.com/protocolbuffers/protobuf
+  For protobuf,  Follow the instruction on https://github.com/protocolbuffers/protobuf
 
 - ##### Create database ups_db (first time)
 
