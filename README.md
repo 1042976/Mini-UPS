@@ -47,10 +47,11 @@ DUKE-ECE568-FINAL
   ```shell
   cd frontend/upssite
   python3 manage.py migrate #first time
-  python3 manage.py runserver 0.0.0.0:8000
+  #remember to add your vm address to ALLOWED_HOSTS in setting.py
+  python3 manage.py runserver 0.0.0.0:8000 
   ```
 
-  Visit the website in local machine with url "<vm_addr>:8000/ups/home".
+  Visit the website in local machine with url "<vm_addr>:8000/ups/home". 
 
   You can use commands in test/database_test/testsql  to check the functionality of the frontend.
 
