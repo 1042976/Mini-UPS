@@ -79,16 +79,16 @@ void UPSData::createTableTruck() {
 
 // void UPSData::createTableTempDelivered(){
 //     work W(*C);
-//     string sql = "CREATE TABLE IF NOT EXISTS DELIVERED("
+//     string testsql = "CREATE TABLE IF NOT EXISTS DELIVERED("
 //                  "PACKAGE_ID        BIGINT    PRIMARY KEY                           NOT NULL);";
-//     W.exec(sql);
+//     W.exec(testsql);
 //     W.commit();
 // }
 //void UPSData::createTableShipment() {
 //    work W(*C);
-//    string sql = "CREATE TABLE IF NOT EXISTS SHIPMENT("
+//    string testsql = "CREATE TABLE IF NOT EXISTS SHIPMENT("
 //                 "ID     BIGINT   PRIMARY KEY    NOT NULL)";
-//    W.exec(sql);
+//    W.exec(testsql);
 //    W.commit();
 //}
 
@@ -102,14 +102,14 @@ void UPSData::createTables() {
 
 void UPSData::cleanAllData() {
     work W(*C);
-    string sqlAuthUser = "DELETE FROM AUTH_USER";
+    //string sqlAuthUser = "DELETE FROM AUTH_USER";
     string sqlPackage = "DELETE FROM PACKAGE";
     string sqlWarehouse = "DELETE FROM WAREHOUSE";
     string sqlItem = "DELETE FROM ITEM";
     string sqlTruck = "DELETE FROM TRUCK";
     //string sqlDelivered = "DELETE FROM DELIVERED";
    // string sqlShipment = "DELETE FROM SHIPMENT";
-    W.exec(sqlAuthUser);
+    //W.exec(sqlAuthUser);
     W.exec(sqlPackage);
     W.exec(sqlWarehouse);
     W.exec(sqlItem);
@@ -347,9 +347,9 @@ unordered_map<int64_t,pair<int,int>> UPSData::getTargetPackageInfo(int truck_id,
 //  unordered_map<int64_t,pair<int,int>>  UPSData::getTargetPackagesInfo(int truck_id, string status){
 //     work W(*C);
 //     unordered_map<int64_t,pair<int,int>> packages;
-//     string sql = "SELECT PACKAGE.PACKAGE_ID,ADDR_X,ADDR_Y FROM PACKAGE WHERE TRUCK_ID = " + to_string(truck_id)
+//     string testsql = "SELECT PACKAGE.PACKAGE_ID,ADDR_X,ADDR_Y FROM PACKAGE WHERE TRUCK_ID = " + to_string(truck_id)
 //                  + " AND STATUS = '" + status + "';";
-//     result R(W.exec(sql));
+//     result R(W.exec(testsql));
 //     for(size_t i=0;i<R.size();i++){
 //         int64_t id = R[i][0].as<int64_t>();
 //         int x = R[i][1].as<int>();

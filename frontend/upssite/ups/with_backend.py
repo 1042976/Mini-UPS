@@ -8,6 +8,7 @@ import socket
 import sys
 
 from ups import frontend_pb2
+import psycopg2
 
 host = 'vcm-25919.vm.duke.edu'
 port = 45678
@@ -24,6 +25,7 @@ except socket.error:
 #     sys.exit()
 
 # Connect to remote server
+
 s.connect((host, port))
 # msg = "hello"
 # s.send(msg.encode('utf-8'))
