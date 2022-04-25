@@ -10,6 +10,7 @@
 
    <h3>{{ user_id }}'s package list</h3>
    <div class="container">
+       <button type="button" class="btn btn-dark"><a href="{% url 'packages' %}"> Refresh </a></button>
        {% if messages %}
             <ul class="messages">
             {% for message in messages %}
@@ -26,13 +27,6 @@
                 <ul>
                     <li>Truck ID: {{ package.truck_id }}</li>
                     <li>Destination: ({{ package.addr_x }},{{ package.addr_y }})</li>
-                    {% if status != "delivering" and status != "delivered" %}
-{#                        <form action="{% url 'search-results' %}" method="GET">#}
-{#                            <input name="q" type="text" placeholder="Question Text" aria-label="Search">#}
-{#                            <input name="topic" type="text" placeholder="Topic" aria-label="Search">#}
-{#                            <button type="submit">Redict</button>#}
-{#                        </form>#}
-                    {% endif %}
                     <li>Status: {{ package.status }}</li>
                     <li>Items:<br>
                         <ul>
@@ -65,6 +59,7 @@
            <h3> Advanced search</h3>
             <div class="form-group">
                 <input type="text" id="item_name" name="item_name" placeholder="item_name" class="form-control" style="width:300px">
+                <input type="text" id="package_status" name="package_status" placeholder="package_status" class="form-control" style="width:300px">
             </div>
             <button type="submit" class="btn btn-dark"> Search </button>
             </form>

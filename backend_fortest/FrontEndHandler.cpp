@@ -19,21 +19,31 @@ FrontEndHandler::FrontEndHandler(shared_ptr<UPSData> _upsData, shared_ptr<WorldS
 void FrontEndHandler::run(){
     cout << "Front end handler is running" << endl;
     serverSocket.setUp();
-    clientFd = serverSocket.toAccept();
-    printLog("already accept!");
+//    clientFd = serverSocket.toAccept();
+//    printLog("already accept!");
     while(true){
-
-        F2BChangeAddress f2BChangeAddress;
-        cout << "client fd: " << clientFd << endl;
-        //vector<char> str = serverSocket.toReceive(clientFd);
-        serverSocket.recvMesg(clientFd,f2BChangeAddress);
-        int64_t package_id = f2BChangeAddress.shipid();
-        int x = f2BChangeAddress.x();
-        int y = f2BChangeAddress.y();
-        amazonHandler.lock()->handleU2AChangeAddress(package_id,x,y);
-//        printLog(vectorToStr(str));
-//        printLog("already receive!");
-        printLog(f2BChangeAddress.DebugString());
+        clientFd = serverSocket.toAccept();
+        printLog("already accept!");
+        while(true) {
+            try{
+                F2BChangeAddress f2BChangeAddress;
+                cout << "client fd: " << clientFd << endl;
+                //vector<char> str = serverSocket.toReceive(clientFd);
+                serverSocket.recvMesg(clientFd, f2BChangeAddress);
+                if(f2BChangeAddress.ByteSizeLong() == 0){
+                    printLog("Front End disconnected");
+                    break;
+                }
+                int64_t package_id = f2BChangeAddress.shipid();
+                int x = f2BChangeAddress.x();
+                int y = f2BChangeAddress.y();
+                amazonHandler.lock()->handleU2AChangeAddress(package_id, x, y);
+                printLog(f2BChangeAddress.DebugString());
+            }catch (MyException &exp){
+                cout << exp.what() << endl;
+                break;
+            }
+        }
     }
 
 }

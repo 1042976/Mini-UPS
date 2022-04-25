@@ -12,7 +12,7 @@ from .form import CreateUserForm, UserCreationForm1
 from django.template import context
 
 from .with_database import get_shipment_status, get_package_list, get_item_list, get_package_id_list, \
-    get_selected_package_id_list, get_selected_package_list
+    get_selected_package_id_list, get_selected_package_list, get_selected_package_list_with_status
 from .with_backend import handleF2BChangeAddress, s, host, port
 
 
@@ -99,10 +99,16 @@ def shipmentStatus(request):
 def packages(request):
     if request.method == "POST":
         if 'package_id' in request.POST:
-            packages_id = request.POST['package_id']
+            package_id = request.POST['package_id']
             new_x = request.POST['new_x']
             new_y = request.POST['new_y']
-            shipid, result = handleF2BChangeAddress(packages_id, new_x, new_y)
+            if package_id == '':
+                messages.error(request, "Please enter package id if you want to change address")
+                return redirect('packages')
+            if new_x == '' or new_y == '':
+                messages.error(request, "Please enter the position if you want to change address")
+                return redirect('packages')
+            shipid, result = handleF2BChangeAddress(package_id, new_x, new_y)
             if result == 1:
                 messages.success(request, "Successfully change the destination of package " + str(shipid) + "!")
                 send_mail(
@@ -121,15 +127,47 @@ def packages(request):
                 )
         if 'item_name' in request.POST:
             item_name = request.POST['item_name']
-            package_id_list = get_selected_package_id_list(request.user.username, item_name)
-            package_list = get_selected_package_list(request.user.username, package_id_list)
-            all_item_list = []
-            for package_id in package_id_list:
-                item_list = get_item_list(package_id)
-                all_item_list.append(item_list)
-            return render(request, 'packages.html', {'user_id': request.user.username, 'package_list': package_list,
-                                                     'all_item_list': all_item_list})
-        return redirect('packages')
+            package_status = request.POST['package_status']
+            if item_name == '' and package_status == '':
+                return redirect('packages')
+            if item_name != '':
+                package_id_list = get_selected_package_id_list(request.user.username, item_name)
+                if package_status == '':
+                    print("item is filled but package status is blank")
+                    package_list = get_selected_package_list(request.user.username, package_id_list)
+                    all_item_list = []
+                    for package_id in package_id_list:
+                        item_list = get_item_list(package_id)
+                        all_item_list.append(item_list)
+                    return render(request, 'packages.html',
+                                  {'user_id': request.user.username, 'package_list': package_list,
+                                   'all_item_list': all_item_list})
+                else:
+                    print("item is filled and package status is filled")
+                    package_list = get_selected_package_list_with_status(request.user.username, package_id_list,
+                                                                         package_status)
+                    all_item_list = []
+                    for package_id in package_id_list:
+                        item_list = get_item_list(package_id)
+                        all_item_list.append(item_list)
+                    return render(request, 'packages.html',
+                                  {'user_id': request.user.username, 'package_list': package_list,
+                                   'all_item_list': all_item_list})
+
+            elif package_status != '':
+                print("item is blank but package status is filled")
+                package_id_list = get_package_id_list(request.user.username)
+                package_list = get_selected_package_list_with_status(request.user.username, package_id_list,
+                                                                     package_status)
+                all_item_list = []
+                for package_id in package_id_list:
+                    item_list = get_item_list(package_id)
+                    all_item_list.append(item_list)
+                return render(request, 'packages.html',
+                              {'user_id': request.user.username, 'package_list': package_list,
+                               'all_item_list': all_item_list})
+            print("item is blank and package status is blank")
+            return redirect('packages')
 
     package_list = get_package_list(request.user.username)
     package_id_list = get_package_id_list(request.user.username)
@@ -139,5 +177,6 @@ def packages(request):
         all_item_list.append(item_list)
     return render(request, 'packages.html', {'user_id': request.user.username, 'package_list': package_list,
                                              'all_item_list': all_item_list})
+
 
 

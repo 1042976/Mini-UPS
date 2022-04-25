@@ -45,12 +45,34 @@ def get_item_list(package_id):
     return None
 
 def get_selected_package_list(username, package_id_list):
+    id_list_str = "("
+    for package_id in package_id_list:
+        id_list_str += str(package_id)
+        id_list_str += ","
+    id_list_str = id_list_str[:-1]
+    id_list_str += ")"
     with connection.cursor() as cursor:
         for package_id in package_id_list:
-            cursor.execute("SELECT * FROM PACKAGE WHERE PACKAGE_ID = %s ", [package_id])
-            row = cursor.fetchall()
-            if row is not None:
-                return [r[0] for r in row]
+            cursor.execute("SELECT * FROM PACKAGE WHERE PACKAGE_ID IN " + id_list_str)
+            results = namedtuplefetchall(cursor)
+            if results is not None:
+                return results
+    return None
+
+def get_selected_package_list_with_status(username, package_id_list, package_status):
+    id_list_str = "("
+    for package_id in package_id_list:
+        id_list_str += str(package_id)
+        id_list_str += ","
+    id_list_str = id_list_str[:-1]
+    id_list_str += ")"
+    with connection.cursor() as cursor:
+        for package_id in package_id_list:
+            cursor.execute("SELECT * FROM PACKAGE WHERE PACKAGE_ID IN " + id_list_str + " AND STATUS = \'" +
+                           package_status + "\'")
+            results = namedtuplefetchall(cursor)
+            if results is not None:
+                return results
     return None
 
 def get_selected_package_id_list(username, itemname):
