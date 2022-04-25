@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ece568finalwebsite" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ece568finalwebsite">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/xl346/final/erss-project-xh114-xl346/frontend" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

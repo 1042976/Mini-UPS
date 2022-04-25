@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Create View</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous">
+</head>
+<body>
+
+   <h3>{{ user_id }}'s package list</h3>
+   <div class="container">
+       {% if messages %}
+            <ul class="messages">
+            {% for message in messages %}
+            <div class="alert alert-primary" role="alert">
+                {{ message }}
+            </div>
+            {% endfor %}
+            </ul>
+        {% endif %}
+        <br/>
+        {% for package in package_list %}
+            {% with package_id=package.package_id  status=package.status addr_x=package.addr_x addr_y=package.addr_y %}
+                <strong>Package ID: {{ package.package_id }}</strong>
+                <ul>
+                    <li>Truck ID: {{ package.truck_id }}</li>
+                    <li>Destination: ({{ package.addr_x }},{{ package.addr_y }})</li>
+                    {% if status != "delivering" and status != "delivered" %}
+{#                        <form action="{% url 'search-results' %}" method="GET">#}
+{#                            <input name="q" type="text" placeholder="Question Text" aria-label="Search">#}
+{#                            <input name="topic" type="text" placeholder="Topic" aria-label="Search">#}
+{#                            <button type="submit">Redict</button>#}
+{#                        </form>#}
+                    {% endif %}
+                    <li>Status: {{ package.status }}</li>
+                    <li>Items:<br>
+                        <ul>
+                           {% for item_list in all_item_list %}
+                               {% for item in item_list %}
+                                   {% if item.package_id == package_id %}
+                                        <li>({{ item.name }}, {{ item.count }}, "{{ item.description }}")</li>
+                                   {% endif %}
+                               {% endfor %}
+                           {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+            {% endwith %}
+        {% endfor %}
+           <form method="POST" action="">
+            {% csrf_token %}
+               <h3> Change destination</h3>
+            <div class="form-group">
+                <input type="number" id="package_id" name="package_id" placeholder="package_id" class="form-control" style="width:300px">
+                <input type="number" id="new_x" name="new_x" placeholder="x" class="form-control" style="width:300px">
+                <input type="number" id="new_y" name="new_y" placeholder="y" class="form-control" style="width:300px">
+            </div>
+
+            <button type="submit" class="btn btn-dark"> Redirect </button>
+            </form>
+
+              <form method="POST" action="">
+            {% csrf_token %}
+           <h3> Advanced search</h3>
+            <div class="form-group">
+                <input type="text" id="item_name" name="item_name" placeholder="item_name" class="form-control" style="width:300px">
+            </div>
+            <button type="submit" class="btn btn-dark"> Search </button>
+            </form>
+   </div>
+    <button type="button" class="btn btn-outline-dark"><a href="home"> Back </a></button>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    ntegrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

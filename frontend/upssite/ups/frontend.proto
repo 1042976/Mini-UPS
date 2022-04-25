@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+//Amazon send UPS the package is packed
+message F2BChangeAddress{
+    required int64 seqnum = 1;
+    required int64 shipid = 2;
+    required int32 x = 3;
+    required int32 y = 4;
+}
+
+//Back End send Frond end result
+message B2FChangeAddressResp{
+    required int64 seqnum = 1;
+    required int64 shipid = 2;
+    required int32 result = 3;
+}
