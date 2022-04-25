@@ -31,6 +31,8 @@ DUKE-ECE568-FINAL
    ./run.sh <world_simulator_host> <amazon_host> <option> 
    ```
 
+   You can check log files that show the server's interaction with world simulator, amazon and frontend.
+
 - ##### Run ups frontend
 
   ```shell
