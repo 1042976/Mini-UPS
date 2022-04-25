@@ -1,5 +1,5 @@
 //
-// Created by Xiaodong Liu on 4/20/22.
+// Created on 4/20/22.
 //
 
 #ifndef FINALPROJECT_TRUCK_H

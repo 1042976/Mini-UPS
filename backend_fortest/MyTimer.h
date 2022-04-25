@@ -1,5 +1,5 @@
 //
-// Created by Xiaodong Liu on 4/19/22.
+// Created on 4/19/22.
 //
 
 #ifndef FINALPROJECT_MYTIMER_H

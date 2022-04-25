@@ -1,5 +1,5 @@
 //
-// Created by Xiaodong Liu on 4/16/22.
+// Created on 4/16/22.
 //
 
 #ifndef FINALPROJECT_WORLDSIMULATORHANDLER_H

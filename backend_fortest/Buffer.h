@@ -1,5 +1,5 @@
 //
-// Created by Xiaodong Liu on 4/13/22.
+// Created on 4/13/22.
 //
 
 #ifndef FINALPROJECT_BUFFER_H
