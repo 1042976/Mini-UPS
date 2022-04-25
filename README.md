@@ -36,7 +36,7 @@ DUKE-ECE568-FINAL
   ```shell
   cd frontend/upssite
   python3 manage.py migrate #first time
-  python3 manage.py run 0.0.0.0:8000
+  python3 manage.py runserver 0.0.0.0:8000
   ```
 
   Visit the website in local machine with url "<vm_addr>:8000/ups/home"
