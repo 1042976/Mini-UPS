@@ -41,7 +41,7 @@ DUKE-ECE568-FINAL
 
   Visit the website in local machine with url "<vm_addr>:8000/ups/home".
 
-  You can use the command in test/database_test/testsql  to check the functionality of the frontend.
+  You can use commands in test/database_test/testsql  to check the functionality of the frontend.
 
 - ##### Simple test
 
