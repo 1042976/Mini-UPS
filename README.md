@@ -4,9 +4,18 @@ DUKE-ECE568-FINAL
 
 #### Step
 
-- ##### Install Google Protobuf
+- ##### Install packages
 
-  Follow the instruction on https://github.com/protocolbuffers/protobuf
+  ```shell
+  sudo apt-get install gcc g++ make valgrind #For C development
+  sudo apt-get install emacs screen #For editing
+  sudo apt-get install postgresql #Database
+  sudo apt-get install python python3-pip #For Django
+  sudo pip3 install django psycopg2
+  sudo apt-get libssl-dev libxerces-c-dev libpqxx-dev #Libaries
+  ```
+
+​		For protobuf,  Follow the instruction on https://github.com/protocolbuffers/protobuf
 
 - ##### Create database ups_db (first time)
 
