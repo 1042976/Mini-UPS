@@ -65,7 +65,3 @@ DUKE-ECE568-FINAL
 - ##### Test with Mini-Amazon
 
    
-
-#### Team Document
-
-https://docs.google.com/document/d/1NiRAtG57TfeZvTNMx9N9HidYSrP1IM8-qrJZ_WFRLDI/edit#
