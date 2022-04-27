@@ -10,7 +10,7 @@ import sys
 from ups import frontend_pb2
 import psycopg2
 
-host = 'vcm-25919.vm.duke.edu'
+host = 'localhost'
 port = 45678
 #
 # create socket

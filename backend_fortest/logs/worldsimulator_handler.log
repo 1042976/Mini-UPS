@@ -245,7 +245,1156 @@ queries {
   seqnum: 13
 }
 
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 20
+}
+queries {
+  truckid: 19
+  seqnum: 19
+}
+queries {
+  truckid: 18
+  seqnum: 18
+}
+queries {
+  truckid: 17
+  seqnum: 17
+}
+queries {
+  truckid: 16
+  seqnum: 16
+}
+queries {
+  truckid: 15
+  seqnum: 15
+}
+queries {
+  truckid: 14
+  seqnum: 14
+}
+queries {
+  truckid: 1
+  seqnum: 1
+}
+queries {
+  truckid: 2
+  seqnum: 2
+}
+queries {
+  truckid: 3
+  seqnum: 3
+}
+queries {
+  truckid: 4
+  seqnum: 4
+}
+queries {
+  truckid: 5
+  seqnum: 5
+}
+queries {
+  truckid: 6
+  seqnum: 6
+}
+queries {
+  truckid: 7
+  seqnum: 7
+}
+queries {
+  truckid: 8
+  seqnum: 8
+}
+queries {
+  truckid: 9
+  seqnum: 9
+}
+queries {
+  truckid: 10
+  seqnum: 10
+}
+queries {
+  truckid: 11
+  seqnum: 11
+}
+queries {
+  truckid: 12
+  seqnum: 12
+}
+queries {
+  truckid: 13
+  seqnum: 13
+}
+
 [worldsimulator_handler]sending acks to world simulator
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 40
+}
+queries {
+  truckid: 19
+  seqnum: 39
+}
+queries {
+  truckid: 18
+  seqnum: 38
+}
+queries {
+  truckid: 17
+  seqnum: 37
+}
+queries {
+  truckid: 16
+  seqnum: 36
+}
+queries {
+  truckid: 15
+  seqnum: 35
+}
+queries {
+  truckid: 14
+  seqnum: 34
+}
+queries {
+  truckid: 13
+  seqnum: 33
+}
+queries {
+  truckid: 12
+  seqnum: 32
+}
+queries {
+  truckid: 11
+  seqnum: 31
+}
+queries {
+  truckid: 10
+  seqnum: 30
+}
+queries {
+  truckid: 9
+  seqnum: 29
+}
+queries {
+  truckid: 8
+  seqnum: 28
+}
+queries {
+  truckid: 7
+  seqnum: 27
+}
+queries {
+  truckid: 6
+  seqnum: 26
+}
+queries {
+  truckid: 5
+  seqnum: 25
+}
+queries {
+  truckid: 4
+  seqnum: 24
+}
+queries {
+  truckid: 3
+  seqnum: 23
+}
+queries {
+  truckid: 2
+  seqnum: 22
+}
+queries {
+  truckid: 1
+  seqnum: 21
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 40
+}
+queries {
+  truckid: 19
+  seqnum: 39
+}
+queries {
+  truckid: 18
+  seqnum: 38
+}
+queries {
+  truckid: 17
+  seqnum: 37
+}
+queries {
+  truckid: 16
+  seqnum: 36
+}
+queries {
+  truckid: 15
+  seqnum: 35
+}
+queries {
+  truckid: 14
+  seqnum: 34
+}
+queries {
+  truckid: 13
+  seqnum: 33
+}
+queries {
+  truckid: 12
+  seqnum: 32
+}
+queries {
+  truckid: 11
+  seqnum: 31
+}
+queries {
+  truckid: 10
+  seqnum: 30
+}
+queries {
+  truckid: 9
+  seqnum: 29
+}
+queries {
+  truckid: 8
+  seqnum: 28
+}
+queries {
+  truckid: 7
+  seqnum: 27
+}
+queries {
+  truckid: 6
+  seqnum: 26
+}
+queries {
+  truckid: 5
+  seqnum: 25
+}
+queries {
+  truckid: 4
+  seqnum: 24
+}
+queries {
+  truckid: 3
+  seqnum: 23
+}
+queries {
+  truckid: 2
+  seqnum: 22
+}
+queries {
+  truckid: 1
+  seqnum: 21
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 40
+}
+queries {
+  truckid: 19
+  seqnum: 39
+}
+queries {
+  truckid: 18
+  seqnum: 38
+}
+queries {
+  truckid: 17
+  seqnum: 37
+}
+queries {
+  truckid: 16
+  seqnum: 36
+}
+queries {
+  truckid: 15
+  seqnum: 35
+}
+queries {
+  truckid: 14
+  seqnum: 34
+}
+queries {
+  truckid: 13
+  seqnum: 33
+}
+queries {
+  truckid: 12
+  seqnum: 32
+}
+queries {
+  truckid: 11
+  seqnum: 31
+}
+queries {
+  truckid: 10
+  seqnum: 30
+}
+queries {
+  truckid: 9
+  seqnum: 29
+}
+queries {
+  truckid: 8
+  seqnum: 28
+}
+queries {
+  truckid: 7
+  seqnum: 27
+}
+queries {
+  truckid: 6
+  seqnum: 26
+}
+queries {
+  truckid: 5
+  seqnum: 25
+}
+queries {
+  truckid: 4
+  seqnum: 24
+}
+queries {
+  truckid: 3
+  seqnum: 23
+}
+queries {
+  truckid: 2
+  seqnum: 22
+}
+queries {
+  truckid: 1
+  seqnum: 21
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 40
+}
+queries {
+  truckid: 19
+  seqnum: 39
+}
+queries {
+  truckid: 18
+  seqnum: 38
+}
+queries {
+  truckid: 17
+  seqnum: 37
+}
+queries {
+  truckid: 16
+  seqnum: 36
+}
+queries {
+  truckid: 15
+  seqnum: 35
+}
+queries {
+  truckid: 14
+  seqnum: 34
+}
+queries {
+  truckid: 13
+  seqnum: 33
+}
+queries {
+  truckid: 12
+  seqnum: 32
+}
+queries {
+  truckid: 11
+  seqnum: 31
+}
+queries {
+  truckid: 10
+  seqnum: 30
+}
+queries {
+  truckid: 9
+  seqnum: 29
+}
+queries {
+  truckid: 8
+  seqnum: 28
+}
+queries {
+  truckid: 7
+  seqnum: 27
+}
+queries {
+  truckid: 6
+  seqnum: 26
+}
+queries {
+  truckid: 5
+  seqnum: 25
+}
+queries {
+  truckid: 4
+  seqnum: 24
+}
+queries {
+  truckid: 3
+  seqnum: 23
+}
+queries {
+  truckid: 2
+  seqnum: 22
+}
+queries {
+  truckid: 1
+  seqnum: 21
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 40
+}
+queries {
+  truckid: 19
+  seqnum: 39
+}
+queries {
+  truckid: 18
+  seqnum: 38
+}
+queries {
+  truckid: 17
+  seqnum: 37
+}
+queries {
+  truckid: 16
+  seqnum: 36
+}
+queries {
+  truckid: 15
+  seqnum: 35
+}
+queries {
+  truckid: 14
+  seqnum: 34
+}
+queries {
+  truckid: 13
+  seqnum: 33
+}
+queries {
+  truckid: 12
+  seqnum: 32
+}
+queries {
+  truckid: 11
+  seqnum: 31
+}
+queries {
+  truckid: 10
+  seqnum: 30
+}
+queries {
+  truckid: 9
+  seqnum: 29
+}
+queries {
+  truckid: 8
+  seqnum: 28
+}
+queries {
+  truckid: 7
+  seqnum: 27
+}
+queries {
+  truckid: 6
+  seqnum: 26
+}
+queries {
+  truckid: 5
+  seqnum: 25
+}
+queries {
+  truckid: 4
+  seqnum: 24
+}
+queries {
+  truckid: 3
+  seqnum: 23
+}
+queries {
+  truckid: 2
+  seqnum: 22
+}
+queries {
+  truckid: 1
+  seqnum: 21
+}
+
 [worldsimulator_handler]sendCommands()
 [worldsimulator_handler]queries {
   truckid: 20
@@ -495,7 +1644,254 @@ queries {
   seqnum: 21
 }
 
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 40
+}
+queries {
+  truckid: 19
+  seqnum: 39
+}
+queries {
+  truckid: 18
+  seqnum: 38
+}
+queries {
+  truckid: 17
+  seqnum: 37
+}
+queries {
+  truckid: 16
+  seqnum: 36
+}
+queries {
+  truckid: 15
+  seqnum: 35
+}
+queries {
+  truckid: 14
+  seqnum: 34
+}
+queries {
+  truckid: 13
+  seqnum: 33
+}
+queries {
+  truckid: 12
+  seqnum: 32
+}
+queries {
+  truckid: 11
+  seqnum: 31
+}
+queries {
+  truckid: 10
+  seqnum: 30
+}
+queries {
+  truckid: 9
+  seqnum: 29
+}
+queries {
+  truckid: 8
+  seqnum: 28
+}
+queries {
+  truckid: 7
+  seqnum: 27
+}
+queries {
+  truckid: 6
+  seqnum: 26
+}
+queries {
+  truckid: 5
+  seqnum: 25
+}
+queries {
+  truckid: 4
+  seqnum: 24
+}
+queries {
+  truckid: 3
+  seqnum: 23
+}
+queries {
+  truckid: 2
+  seqnum: 22
+}
+queries {
+  truckid: 1
+  seqnum: 21
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 40
+}
+queries {
+  truckid: 19
+  seqnum: 39
+}
+queries {
+  truckid: 18
+  seqnum: 38
+}
+queries {
+  truckid: 17
+  seqnum: 37
+}
+queries {
+  truckid: 16
+  seqnum: 36
+}
+queries {
+  truckid: 15
+  seqnum: 35
+}
+queries {
+  truckid: 14
+  seqnum: 34
+}
+queries {
+  truckid: 13
+  seqnum: 33
+}
+queries {
+  truckid: 12
+  seqnum: 32
+}
+queries {
+  truckid: 11
+  seqnum: 31
+}
+queries {
+  truckid: 10
+  seqnum: 30
+}
+queries {
+  truckid: 9
+  seqnum: 29
+}
+queries {
+  truckid: 8
+  seqnum: 28
+}
+queries {
+  truckid: 7
+  seqnum: 27
+}
+queries {
+  truckid: 6
+  seqnum: 26
+}
+queries {
+  truckid: 5
+  seqnum: 25
+}
+queries {
+  truckid: 4
+  seqnum: 24
+}
+queries {
+  truckid: 3
+  seqnum: 23
+}
+queries {
+  truckid: 2
+  seqnum: 22
+}
+queries {
+  truckid: 1
+  seqnum: 21
+}
+
+[worldsimulator_handler]sendCommands()
+[worldsimulator_handler]queries {
+  truckid: 20
+  seqnum: 40
+}
+queries {
+  truckid: 19
+  seqnum: 39
+}
+queries {
+  truckid: 18
+  seqnum: 38
+}
+queries {
+  truckid: 17
+  seqnum: 37
+}
+queries {
+  truckid: 16
+  seqnum: 36
+}
+queries {
+  truckid: 15
+  seqnum: 35
+}
+queries {
+  truckid: 14
+  seqnum: 34
+}
+queries {
+  truckid: 13
+  seqnum: 33
+}
+queries {
+  truckid: 12
+  seqnum: 32
+}
+queries {
+  truckid: 11
+  seqnum: 31
+}
+queries {
+  truckid: 10
+  seqnum: 30
+}
+queries {
+  truckid: 9
+  seqnum: 29
+}
+queries {
+  truckid: 8
+  seqnum: 28
+}
+queries {
+  truckid: 7
+  seqnum: 27
+}
+queries {
+  truckid: 6
+  seqnum: 26
+}
+queries {
+  truckid: 5
+  seqnum: 25
+}
+queries {
+  truckid: 4
+  seqnum: 24
+}
+queries {
+  truckid: 3
+  seqnum: 23
+}
+queries {
+  truckid: 2
+  seqnum: 22
+}
+queries {
+  truckid: 1
+  seqnum: 21
+}
+
 [worldsimulator_handler]sending acks to world simulator
+[worldsimulator_handler]sendCommands()
 [worldsimulator_handler]sendCommands()
 [worldsimulator_handler]queries {
   truckid: 20
@@ -576,2232 +1972,5 @@ queries {
 queries {
   truckid: 1
   seqnum: 41
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 60
-}
-queries {
-  truckid: 19
-  seqnum: 59
-}
-queries {
-  truckid: 18
-  seqnum: 58
-}
-queries {
-  truckid: 17
-  seqnum: 57
-}
-queries {
-  truckid: 16
-  seqnum: 56
-}
-queries {
-  truckid: 15
-  seqnum: 55
-}
-queries {
-  truckid: 14
-  seqnum: 54
-}
-queries {
-  truckid: 13
-  seqnum: 53
-}
-queries {
-  truckid: 12
-  seqnum: 52
-}
-queries {
-  truckid: 11
-  seqnum: 51
-}
-queries {
-  truckid: 10
-  seqnum: 50
-}
-queries {
-  truckid: 9
-  seqnum: 49
-}
-queries {
-  truckid: 8
-  seqnum: 48
-}
-queries {
-  truckid: 7
-  seqnum: 47
-}
-queries {
-  truckid: 6
-  seqnum: 46
-}
-queries {
-  truckid: 5
-  seqnum: 45
-}
-queries {
-  truckid: 4
-  seqnum: 44
-}
-queries {
-  truckid: 3
-  seqnum: 43
-}
-queries {
-  truckid: 2
-  seqnum: 42
-}
-queries {
-  truckid: 1
-  seqnum: 41
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 60
-}
-queries {
-  truckid: 19
-  seqnum: 59
-}
-queries {
-  truckid: 18
-  seqnum: 58
-}
-queries {
-  truckid: 17
-  seqnum: 57
-}
-queries {
-  truckid: 16
-  seqnum: 56
-}
-queries {
-  truckid: 15
-  seqnum: 55
-}
-queries {
-  truckid: 14
-  seqnum: 54
-}
-queries {
-  truckid: 13
-  seqnum: 53
-}
-queries {
-  truckid: 12
-  seqnum: 52
-}
-queries {
-  truckid: 11
-  seqnum: 51
-}
-queries {
-  truckid: 10
-  seqnum: 50
-}
-queries {
-  truckid: 9
-  seqnum: 49
-}
-queries {
-  truckid: 8
-  seqnum: 48
-}
-queries {
-  truckid: 7
-  seqnum: 47
-}
-queries {
-  truckid: 6
-  seqnum: 46
-}
-queries {
-  truckid: 5
-  seqnum: 45
-}
-queries {
-  truckid: 4
-  seqnum: 44
-}
-queries {
-  truckid: 3
-  seqnum: 43
-}
-queries {
-  truckid: 2
-  seqnum: 42
-}
-queries {
-  truckid: 1
-  seqnum: 41
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]deleteSeqNums()
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 80
-}
-queries {
-  truckid: 19
-  seqnum: 79
-}
-queries {
-  truckid: 18
-  seqnum: 78
-}
-queries {
-  truckid: 17
-  seqnum: 77
-}
-queries {
-  truckid: 16
-  seqnum: 76
-}
-queries {
-  truckid: 15
-  seqnum: 75
-}
-queries {
-  truckid: 14
-  seqnum: 74
-}
-queries {
-  truckid: 13
-  seqnum: 73
-}
-queries {
-  truckid: 12
-  seqnum: 72
-}
-queries {
-  truckid: 11
-  seqnum: 71
-}
-queries {
-  truckid: 10
-  seqnum: 70
-}
-queries {
-  truckid: 9
-  seqnum: 69
-}
-queries {
-  truckid: 8
-  seqnum: 68
-}
-queries {
-  truckid: 7
-  seqnum: 67
-}
-queries {
-  truckid: 6
-  seqnum: 66
-}
-queries {
-  truckid: 5
-  seqnum: 65
-}
-queries {
-  truckid: 4
-  seqnum: 64
-}
-queries {
-  truckid: 3
-  seqnum: 63
-}
-queries {
-  truckid: 2
-  seqnum: 62
-}
-queries {
-  truckid: 1
-  seqnum: 61
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 80
-}
-queries {
-  truckid: 19
-  seqnum: 79
-}
-queries {
-  truckid: 18
-  seqnum: 78
-}
-queries {
-  truckid: 17
-  seqnum: 77
-}
-queries {
-  truckid: 16
-  seqnum: 76
-}
-queries {
-  truckid: 15
-  seqnum: 75
-}
-queries {
-  truckid: 14
-  seqnum: 74
-}
-queries {
-  truckid: 13
-  seqnum: 73
-}
-queries {
-  truckid: 12
-  seqnum: 72
-}
-queries {
-  truckid: 11
-  seqnum: 71
-}
-queries {
-  truckid: 10
-  seqnum: 70
-}
-queries {
-  truckid: 9
-  seqnum: 69
-}
-queries {
-  truckid: 8
-  seqnum: 68
-}
-queries {
-  truckid: 7
-  seqnum: 67
-}
-queries {
-  truckid: 6
-  seqnum: 66
-}
-queries {
-  truckid: 5
-  seqnum: 65
-}
-queries {
-  truckid: 4
-  seqnum: 64
-}
-queries {
-  truckid: 3
-  seqnum: 63
-}
-queries {
-  truckid: 2
-  seqnum: 62
-}
-queries {
-  truckid: 1
-  seqnum: 61
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 80
-}
-queries {
-  truckid: 19
-  seqnum: 79
-}
-queries {
-  truckid: 18
-  seqnum: 78
-}
-queries {
-  truckid: 17
-  seqnum: 77
-}
-queries {
-  truckid: 16
-  seqnum: 76
-}
-queries {
-  truckid: 15
-  seqnum: 75
-}
-queries {
-  truckid: 14
-  seqnum: 74
-}
-queries {
-  truckid: 13
-  seqnum: 73
-}
-queries {
-  truckid: 12
-  seqnum: 72
-}
-queries {
-  truckid: 11
-  seqnum: 71
-}
-queries {
-  truckid: 10
-  seqnum: 70
-}
-queries {
-  truckid: 9
-  seqnum: 69
-}
-queries {
-  truckid: 8
-  seqnum: 68
-}
-queries {
-  truckid: 7
-  seqnum: 67
-}
-queries {
-  truckid: 6
-  seqnum: 66
-}
-queries {
-  truckid: 5
-  seqnum: 65
-}
-queries {
-  truckid: 4
-  seqnum: 64
-}
-queries {
-  truckid: 3
-  seqnum: 63
-}
-queries {
-  truckid: 2
-  seqnum: 62
-}
-queries {
-  truckid: 1
-  seqnum: 61
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 100
-}
-queries {
-  truckid: 19
-  seqnum: 99
-}
-queries {
-  truckid: 18
-  seqnum: 98
-}
-queries {
-  truckid: 17
-  seqnum: 97
-}
-queries {
-  truckid: 16
-  seqnum: 96
-}
-queries {
-  truckid: 15
-  seqnum: 95
-}
-queries {
-  truckid: 14
-  seqnum: 94
-}
-queries {
-  truckid: 13
-  seqnum: 93
-}
-queries {
-  truckid: 12
-  seqnum: 92
-}
-queries {
-  truckid: 11
-  seqnum: 91
-}
-queries {
-  truckid: 10
-  seqnum: 90
-}
-queries {
-  truckid: 9
-  seqnum: 89
-}
-queries {
-  truckid: 8
-  seqnum: 88
-}
-queries {
-  truckid: 7
-  seqnum: 87
-}
-queries {
-  truckid: 6
-  seqnum: 86
-}
-queries {
-  truckid: 5
-  seqnum: 85
-}
-queries {
-  truckid: 4
-  seqnum: 84
-}
-queries {
-  truckid: 3
-  seqnum: 83
-}
-queries {
-  truckid: 2
-  seqnum: 82
-}
-queries {
-  truckid: 1
-  seqnum: 81
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 100
-}
-queries {
-  truckid: 19
-  seqnum: 99
-}
-queries {
-  truckid: 18
-  seqnum: 98
-}
-queries {
-  truckid: 17
-  seqnum: 97
-}
-queries {
-  truckid: 16
-  seqnum: 96
-}
-queries {
-  truckid: 15
-  seqnum: 95
-}
-queries {
-  truckid: 14
-  seqnum: 94
-}
-queries {
-  truckid: 13
-  seqnum: 93
-}
-queries {
-  truckid: 12
-  seqnum: 92
-}
-queries {
-  truckid: 11
-  seqnum: 91
-}
-queries {
-  truckid: 10
-  seqnum: 90
-}
-queries {
-  truckid: 9
-  seqnum: 89
-}
-queries {
-  truckid: 8
-  seqnum: 88
-}
-queries {
-  truckid: 7
-  seqnum: 87
-}
-queries {
-  truckid: 6
-  seqnum: 86
-}
-queries {
-  truckid: 5
-  seqnum: 85
-}
-queries {
-  truckid: 4
-  seqnum: 84
-}
-queries {
-  truckid: 3
-  seqnum: 83
-}
-queries {
-  truckid: 2
-  seqnum: 82
-}
-queries {
-  truckid: 1
-  seqnum: 81
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 100
-}
-queries {
-  truckid: 19
-  seqnum: 99
-}
-queries {
-  truckid: 18
-  seqnum: 98
-}
-queries {
-  truckid: 17
-  seqnum: 97
-}
-queries {
-  truckid: 16
-  seqnum: 96
-}
-queries {
-  truckid: 15
-  seqnum: 95
-}
-queries {
-  truckid: 14
-  seqnum: 94
-}
-queries {
-  truckid: 13
-  seqnum: 93
-}
-queries {
-  truckid: 12
-  seqnum: 92
-}
-queries {
-  truckid: 11
-  seqnum: 91
-}
-queries {
-  truckid: 10
-  seqnum: 90
-}
-queries {
-  truckid: 9
-  seqnum: 89
-}
-queries {
-  truckid: 8
-  seqnum: 88
-}
-queries {
-  truckid: 7
-  seqnum: 87
-}
-queries {
-  truckid: 6
-  seqnum: 86
-}
-queries {
-  truckid: 5
-  seqnum: 85
-}
-queries {
-  truckid: 4
-  seqnum: 84
-}
-queries {
-  truckid: 3
-  seqnum: 83
-}
-queries {
-  truckid: 2
-  seqnum: 82
-}
-queries {
-  truckid: 1
-  seqnum: 81
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 120
-}
-queries {
-  truckid: 19
-  seqnum: 119
-}
-queries {
-  truckid: 18
-  seqnum: 118
-}
-queries {
-  truckid: 17
-  seqnum: 117
-}
-queries {
-  truckid: 16
-  seqnum: 116
-}
-queries {
-  truckid: 15
-  seqnum: 115
-}
-queries {
-  truckid: 14
-  seqnum: 114
-}
-queries {
-  truckid: 13
-  seqnum: 113
-}
-queries {
-  truckid: 12
-  seqnum: 112
-}
-queries {
-  truckid: 11
-  seqnum: 111
-}
-queries {
-  truckid: 10
-  seqnum: 110
-}
-queries {
-  truckid: 9
-  seqnum: 109
-}
-queries {
-  truckid: 8
-  seqnum: 108
-}
-queries {
-  truckid: 7
-  seqnum: 107
-}
-queries {
-  truckid: 6
-  seqnum: 106
-}
-queries {
-  truckid: 5
-  seqnum: 105
-}
-queries {
-  truckid: 4
-  seqnum: 104
-}
-queries {
-  truckid: 3
-  seqnum: 103
-}
-queries {
-  truckid: 2
-  seqnum: 102
-}
-queries {
-  truckid: 1
-  seqnum: 101
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 120
-}
-queries {
-  truckid: 19
-  seqnum: 119
-}
-queries {
-  truckid: 18
-  seqnum: 118
-}
-queries {
-  truckid: 17
-  seqnum: 117
-}
-queries {
-  truckid: 16
-  seqnum: 116
-}
-queries {
-  truckid: 15
-  seqnum: 115
-}
-queries {
-  truckid: 14
-  seqnum: 114
-}
-queries {
-  truckid: 13
-  seqnum: 113
-}
-queries {
-  truckid: 12
-  seqnum: 112
-}
-queries {
-  truckid: 11
-  seqnum: 111
-}
-queries {
-  truckid: 10
-  seqnum: 110
-}
-queries {
-  truckid: 9
-  seqnum: 109
-}
-queries {
-  truckid: 8
-  seqnum: 108
-}
-queries {
-  truckid: 7
-  seqnum: 107
-}
-queries {
-  truckid: 6
-  seqnum: 106
-}
-queries {
-  truckid: 5
-  seqnum: 105
-}
-queries {
-  truckid: 4
-  seqnum: 104
-}
-queries {
-  truckid: 3
-  seqnum: 103
-}
-queries {
-  truckid: 2
-  seqnum: 102
-}
-queries {
-  truckid: 1
-  seqnum: 101
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 120
-}
-queries {
-  truckid: 19
-  seqnum: 119
-}
-queries {
-  truckid: 18
-  seqnum: 118
-}
-queries {
-  truckid: 17
-  seqnum: 117
-}
-queries {
-  truckid: 16
-  seqnum: 116
-}
-queries {
-  truckid: 15
-  seqnum: 115
-}
-queries {
-  truckid: 14
-  seqnum: 114
-}
-queries {
-  truckid: 13
-  seqnum: 113
-}
-queries {
-  truckid: 12
-  seqnum: 112
-}
-queries {
-  truckid: 11
-  seqnum: 111
-}
-queries {
-  truckid: 10
-  seqnum: 110
-}
-queries {
-  truckid: 9
-  seqnum: 109
-}
-queries {
-  truckid: 8
-  seqnum: 108
-}
-queries {
-  truckid: 7
-  seqnum: 107
-}
-queries {
-  truckid: 6
-  seqnum: 106
-}
-queries {
-  truckid: 5
-  seqnum: 105
-}
-queries {
-  truckid: 4
-  seqnum: 104
-}
-queries {
-  truckid: 3
-  seqnum: 103
-}
-queries {
-  truckid: 2
-  seqnum: 102
-}
-queries {
-  truckid: 1
-  seqnum: 101
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 140
-}
-queries {
-  truckid: 19
-  seqnum: 139
-}
-queries {
-  truckid: 18
-  seqnum: 138
-}
-queries {
-  truckid: 17
-  seqnum: 137
-}
-queries {
-  truckid: 16
-  seqnum: 136
-}
-queries {
-  truckid: 15
-  seqnum: 135
-}
-queries {
-  truckid: 14
-  seqnum: 134
-}
-queries {
-  truckid: 13
-  seqnum: 133
-}
-queries {
-  truckid: 12
-  seqnum: 132
-}
-queries {
-  truckid: 11
-  seqnum: 131
-}
-queries {
-  truckid: 10
-  seqnum: 130
-}
-queries {
-  truckid: 9
-  seqnum: 129
-}
-queries {
-  truckid: 8
-  seqnum: 128
-}
-queries {
-  truckid: 7
-  seqnum: 127
-}
-queries {
-  truckid: 6
-  seqnum: 126
-}
-queries {
-  truckid: 5
-  seqnum: 125
-}
-queries {
-  truckid: 4
-  seqnum: 124
-}
-queries {
-  truckid: 3
-  seqnum: 123
-}
-queries {
-  truckid: 2
-  seqnum: 122
-}
-queries {
-  truckid: 1
-  seqnum: 121
-}
-
-[worldsimulator_handler]++++++++++++++++++++++++++++++++++
-[worldsimulator_handler]----------------------------------
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 140
-}
-queries {
-  truckid: 19
-  seqnum: 139
-}
-queries {
-  truckid: 18
-  seqnum: 138
-}
-queries {
-  truckid: 17
-  seqnum: 137
-}
-queries {
-  truckid: 16
-  seqnum: 136
-}
-queries {
-  truckid: 15
-  seqnum: 135
-}
-queries {
-  truckid: 14
-  seqnum: 134
-}
-queries {
-  truckid: 13
-  seqnum: 133
-}
-queries {
-  truckid: 12
-  seqnum: 132
-}
-queries {
-  truckid: 11
-  seqnum: 131
-}
-queries {
-  truckid: 10
-  seqnum: 130
-}
-queries {
-  truckid: 9
-  seqnum: 129
-}
-queries {
-  truckid: 8
-  seqnum: 128
-}
-queries {
-  truckid: 7
-  seqnum: 127
-}
-queries {
-  truckid: 6
-  seqnum: 126
-}
-queries {
-  truckid: 5
-  seqnum: 125
-}
-queries {
-  truckid: 4
-  seqnum: 124
-}
-queries {
-  truckid: 3
-  seqnum: 123
-}
-queries {
-  truckid: 2
-  seqnum: 122
-}
-queries {
-  truckid: 1
-  seqnum: 121
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 140
-}
-queries {
-  truckid: 19
-  seqnum: 139
-}
-queries {
-  truckid: 18
-  seqnum: 138
-}
-queries {
-  truckid: 17
-  seqnum: 137
-}
-queries {
-  truckid: 16
-  seqnum: 136
-}
-queries {
-  truckid: 15
-  seqnum: 135
-}
-queries {
-  truckid: 14
-  seqnum: 134
-}
-queries {
-  truckid: 13
-  seqnum: 133
-}
-queries {
-  truckid: 12
-  seqnum: 132
-}
-queries {
-  truckid: 11
-  seqnum: 131
-}
-queries {
-  truckid: 10
-  seqnum: 130
-}
-queries {
-  truckid: 9
-  seqnum: 129
-}
-queries {
-  truckid: 8
-  seqnum: 128
-}
-queries {
-  truckid: 7
-  seqnum: 127
-}
-queries {
-  truckid: 6
-  seqnum: 126
-}
-queries {
-  truckid: 5
-  seqnum: 125
-}
-queries {
-  truckid: 4
-  seqnum: 124
-}
-queries {
-  truckid: 3
-  seqnum: 123
-}
-queries {
-  truckid: 2
-  seqnum: 122
-}
-queries {
-  truckid: 1
-  seqnum: 121
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 160
-}
-queries {
-  truckid: 19
-  seqnum: 159
-}
-queries {
-  truckid: 18
-  seqnum: 158
-}
-queries {
-  truckid: 17
-  seqnum: 157
-}
-queries {
-  truckid: 16
-  seqnum: 156
-}
-queries {
-  truckid: 15
-  seqnum: 155
-}
-queries {
-  truckid: 14
-  seqnum: 154
-}
-queries {
-  truckid: 13
-  seqnum: 153
-}
-queries {
-  truckid: 12
-  seqnum: 152
-}
-queries {
-  truckid: 11
-  seqnum: 151
-}
-queries {
-  truckid: 10
-  seqnum: 150
-}
-queries {
-  truckid: 9
-  seqnum: 149
-}
-queries {
-  truckid: 8
-  seqnum: 148
-}
-queries {
-  truckid: 7
-  seqnum: 147
-}
-queries {
-  truckid: 6
-  seqnum: 146
-}
-queries {
-  truckid: 5
-  seqnum: 145
-}
-queries {
-  truckid: 4
-  seqnum: 144
-}
-queries {
-  truckid: 3
-  seqnum: 143
-}
-queries {
-  truckid: 2
-  seqnum: 142
-}
-queries {
-  truckid: 1
-  seqnum: 141
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 160
-}
-queries {
-  truckid: 19
-  seqnum: 159
-}
-queries {
-  truckid: 18
-  seqnum: 158
-}
-queries {
-  truckid: 17
-  seqnum: 157
-}
-queries {
-  truckid: 16
-  seqnum: 156
-}
-queries {
-  truckid: 15
-  seqnum: 155
-}
-queries {
-  truckid: 14
-  seqnum: 154
-}
-queries {
-  truckid: 13
-  seqnum: 153
-}
-queries {
-  truckid: 12
-  seqnum: 152
-}
-queries {
-  truckid: 11
-  seqnum: 151
-}
-queries {
-  truckid: 10
-  seqnum: 150
-}
-queries {
-  truckid: 9
-  seqnum: 149
-}
-queries {
-  truckid: 8
-  seqnum: 148
-}
-queries {
-  truckid: 7
-  seqnum: 147
-}
-queries {
-  truckid: 6
-  seqnum: 146
-}
-queries {
-  truckid: 5
-  seqnum: 145
-}
-queries {
-  truckid: 4
-  seqnum: 144
-}
-queries {
-  truckid: 3
-  seqnum: 143
-}
-queries {
-  truckid: 2
-  seqnum: 142
-}
-queries {
-  truckid: 1
-  seqnum: 141
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 160
-}
-queries {
-  truckid: 19
-  seqnum: 159
-}
-queries {
-  truckid: 18
-  seqnum: 158
-}
-queries {
-  truckid: 17
-  seqnum: 157
-}
-queries {
-  truckid: 16
-  seqnum: 156
-}
-queries {
-  truckid: 15
-  seqnum: 155
-}
-queries {
-  truckid: 14
-  seqnum: 154
-}
-queries {
-  truckid: 13
-  seqnum: 153
-}
-queries {
-  truckid: 12
-  seqnum: 152
-}
-queries {
-  truckid: 11
-  seqnum: 151
-}
-queries {
-  truckid: 10
-  seqnum: 150
-}
-queries {
-  truckid: 9
-  seqnum: 149
-}
-queries {
-  truckid: 8
-  seqnum: 148
-}
-queries {
-  truckid: 7
-  seqnum: 147
-}
-queries {
-  truckid: 6
-  seqnum: 146
-}
-queries {
-  truckid: 5
-  seqnum: 145
-}
-queries {
-  truckid: 4
-  seqnum: 144
-}
-queries {
-  truckid: 3
-  seqnum: 143
-}
-queries {
-  truckid: 2
-  seqnum: 142
-}
-queries {
-  truckid: 1
-  seqnum: 141
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]deleteSeqNums()
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 180
-}
-queries {
-  truckid: 19
-  seqnum: 179
-}
-queries {
-  truckid: 18
-  seqnum: 178
-}
-queries {
-  truckid: 17
-  seqnum: 177
-}
-queries {
-  truckid: 16
-  seqnum: 176
-}
-queries {
-  truckid: 15
-  seqnum: 175
-}
-queries {
-  truckid: 14
-  seqnum: 174
-}
-queries {
-  truckid: 13
-  seqnum: 173
-}
-queries {
-  truckid: 12
-  seqnum: 172
-}
-queries {
-  truckid: 11
-  seqnum: 171
-}
-queries {
-  truckid: 10
-  seqnum: 170
-}
-queries {
-  truckid: 9
-  seqnum: 169
-}
-queries {
-  truckid: 8
-  seqnum: 168
-}
-queries {
-  truckid: 7
-  seqnum: 167
-}
-queries {
-  truckid: 6
-  seqnum: 166
-}
-queries {
-  truckid: 5
-  seqnum: 165
-}
-queries {
-  truckid: 4
-  seqnum: 164
-}
-queries {
-  truckid: 3
-  seqnum: 163
-}
-queries {
-  truckid: 2
-  seqnum: 162
-}
-queries {
-  truckid: 1
-  seqnum: 161
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 180
-}
-queries {
-  truckid: 19
-  seqnum: 179
-}
-queries {
-  truckid: 18
-  seqnum: 178
-}
-queries {
-  truckid: 17
-  seqnum: 177
-}
-queries {
-  truckid: 16
-  seqnum: 176
-}
-queries {
-  truckid: 15
-  seqnum: 175
-}
-queries {
-  truckid: 14
-  seqnum: 174
-}
-queries {
-  truckid: 13
-  seqnum: 173
-}
-queries {
-  truckid: 12
-  seqnum: 172
-}
-queries {
-  truckid: 11
-  seqnum: 171
-}
-queries {
-  truckid: 10
-  seqnum: 170
-}
-queries {
-  truckid: 9
-  seqnum: 169
-}
-queries {
-  truckid: 8
-  seqnum: 168
-}
-queries {
-  truckid: 7
-  seqnum: 167
-}
-queries {
-  truckid: 6
-  seqnum: 166
-}
-queries {
-  truckid: 5
-  seqnum: 165
-}
-queries {
-  truckid: 4
-  seqnum: 164
-}
-queries {
-  truckid: 3
-  seqnum: 163
-}
-queries {
-  truckid: 2
-  seqnum: 162
-}
-queries {
-  truckid: 1
-  seqnum: 161
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 180
-}
-queries {
-  truckid: 19
-  seqnum: 179
-}
-queries {
-  truckid: 18
-  seqnum: 178
-}
-queries {
-  truckid: 17
-  seqnum: 177
-}
-queries {
-  truckid: 16
-  seqnum: 176
-}
-queries {
-  truckid: 15
-  seqnum: 175
-}
-queries {
-  truckid: 14
-  seqnum: 174
-}
-queries {
-  truckid: 13
-  seqnum: 173
-}
-queries {
-  truckid: 12
-  seqnum: 172
-}
-queries {
-  truckid: 11
-  seqnum: 171
-}
-queries {
-  truckid: 10
-  seqnum: 170
-}
-queries {
-  truckid: 9
-  seqnum: 169
-}
-queries {
-  truckid: 8
-  seqnum: 168
-}
-queries {
-  truckid: 7
-  seqnum: 167
-}
-queries {
-  truckid: 6
-  seqnum: 166
-}
-queries {
-  truckid: 5
-  seqnum: 165
-}
-queries {
-  truckid: 4
-  seqnum: 164
-}
-queries {
-  truckid: 3
-  seqnum: 163
-}
-queries {
-  truckid: 2
-  seqnum: 162
-}
-queries {
-  truckid: 1
-  seqnum: 161
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 200
-}
-queries {
-  truckid: 19
-  seqnum: 199
-}
-queries {
-  truckid: 18
-  seqnum: 198
-}
-queries {
-  truckid: 17
-  seqnum: 197
-}
-queries {
-  truckid: 16
-  seqnum: 196
-}
-queries {
-  truckid: 15
-  seqnum: 195
-}
-queries {
-  truckid: 14
-  seqnum: 194
-}
-queries {
-  truckid: 13
-  seqnum: 193
-}
-queries {
-  truckid: 12
-  seqnum: 192
-}
-queries {
-  truckid: 11
-  seqnum: 191
-}
-queries {
-  truckid: 10
-  seqnum: 190
-}
-queries {
-  truckid: 9
-  seqnum: 189
-}
-queries {
-  truckid: 8
-  seqnum: 188
-}
-queries {
-  truckid: 7
-  seqnum: 187
-}
-queries {
-  truckid: 6
-  seqnum: 186
-}
-queries {
-  truckid: 5
-  seqnum: 185
-}
-queries {
-  truckid: 4
-  seqnum: 184
-}
-queries {
-  truckid: 3
-  seqnum: 183
-}
-queries {
-  truckid: 2
-  seqnum: 182
-}
-queries {
-  truckid: 1
-  seqnum: 181
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 200
-}
-queries {
-  truckid: 19
-  seqnum: 199
-}
-queries {
-  truckid: 18
-  seqnum: 198
-}
-queries {
-  truckid: 17
-  seqnum: 197
-}
-queries {
-  truckid: 16
-  seqnum: 196
-}
-queries {
-  truckid: 15
-  seqnum: 195
-}
-queries {
-  truckid: 14
-  seqnum: 194
-}
-queries {
-  truckid: 13
-  seqnum: 193
-}
-queries {
-  truckid: 12
-  seqnum: 192
-}
-queries {
-  truckid: 11
-  seqnum: 191
-}
-queries {
-  truckid: 10
-  seqnum: 190
-}
-queries {
-  truckid: 9
-  seqnum: 189
-}
-queries {
-  truckid: 8
-  seqnum: 188
-}
-queries {
-  truckid: 7
-  seqnum: 187
-}
-queries {
-  truckid: 6
-  seqnum: 186
-}
-queries {
-  truckid: 5
-  seqnum: 185
-}
-queries {
-  truckid: 4
-  seqnum: 184
-}
-queries {
-  truckid: 3
-  seqnum: 183
-}
-queries {
-  truckid: 2
-  seqnum: 182
-}
-queries {
-  truckid: 1
-  seqnum: 181
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 200
-}
-queries {
-  truckid: 19
-  seqnum: 199
-}
-queries {
-  truckid: 18
-  seqnum: 198
-}
-queries {
-  truckid: 17
-  seqnum: 197
-}
-queries {
-  truckid: 16
-  seqnum: 196
-}
-queries {
-  truckid: 15
-  seqnum: 195
-}
-queries {
-  truckid: 14
-  seqnum: 194
-}
-queries {
-  truckid: 13
-  seqnum: 193
-}
-queries {
-  truckid: 12
-  seqnum: 192
-}
-queries {
-  truckid: 11
-  seqnum: 191
-}
-queries {
-  truckid: 10
-  seqnum: 190
-}
-queries {
-  truckid: 9
-  seqnum: 189
-}
-queries {
-  truckid: 8
-  seqnum: 188
-}
-queries {
-  truckid: 7
-  seqnum: 187
-}
-queries {
-  truckid: 6
-  seqnum: 186
-}
-queries {
-  truckid: 5
-  seqnum: 185
-}
-queries {
-  truckid: 4
-  seqnum: 184
-}
-queries {
-  truckid: 3
-  seqnum: 183
-}
-queries {
-  truckid: 2
-  seqnum: 182
-}
-queries {
-  truckid: 1
-  seqnum: 181
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 220
-}
-queries {
-  truckid: 19
-  seqnum: 219
-}
-queries {
-  truckid: 18
-  seqnum: 218
-}
-queries {
-  truckid: 17
-  seqnum: 217
-}
-queries {
-  truckid: 16
-  seqnum: 216
-}
-queries {
-  truckid: 15
-  seqnum: 215
-}
-queries {
-  truckid: 14
-  seqnum: 214
-}
-queries {
-  truckid: 13
-  seqnum: 213
-}
-queries {
-  truckid: 12
-  seqnum: 212
-}
-queries {
-  truckid: 11
-  seqnum: 211
-}
-queries {
-  truckid: 10
-  seqnum: 210
-}
-queries {
-  truckid: 9
-  seqnum: 209
-}
-queries {
-  truckid: 8
-  seqnum: 208
-}
-queries {
-  truckid: 7
-  seqnum: 207
-}
-queries {
-  truckid: 6
-  seqnum: 206
-}
-queries {
-  truckid: 5
-  seqnum: 205
-}
-queries {
-  truckid: 4
-  seqnum: 204
-}
-queries {
-  truckid: 3
-  seqnum: 203
-}
-queries {
-  truckid: 2
-  seqnum: 202
-}
-queries {
-  truckid: 1
-  seqnum: 201
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 220
-}
-queries {
-  truckid: 19
-  seqnum: 219
-}
-queries {
-  truckid: 18
-  seqnum: 218
-}
-queries {
-  truckid: 17
-  seqnum: 217
-}
-queries {
-  truckid: 16
-  seqnum: 216
-}
-queries {
-  truckid: 15
-  seqnum: 215
-}
-queries {
-  truckid: 14
-  seqnum: 214
-}
-queries {
-  truckid: 13
-  seqnum: 213
-}
-queries {
-  truckid: 12
-  seqnum: 212
-}
-queries {
-  truckid: 11
-  seqnum: 211
-}
-queries {
-  truckid: 10
-  seqnum: 210
-}
-queries {
-  truckid: 9
-  seqnum: 209
-}
-queries {
-  truckid: 8
-  seqnum: 208
-}
-queries {
-  truckid: 7
-  seqnum: 207
-}
-queries {
-  truckid: 6
-  seqnum: 206
-}
-queries {
-  truckid: 5
-  seqnum: 205
-}
-queries {
-  truckid: 4
-  seqnum: 204
-}
-queries {
-  truckid: 3
-  seqnum: 203
-}
-queries {
-  truckid: 2
-  seqnum: 202
-}
-queries {
-  truckid: 1
-  seqnum: 201
-}
-
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 220
-}
-queries {
-  truckid: 19
-  seqnum: 219
-}
-queries {
-  truckid: 18
-  seqnum: 218
-}
-queries {
-  truckid: 17
-  seqnum: 217
-}
-queries {
-  truckid: 16
-  seqnum: 216
-}
-queries {
-  truckid: 15
-  seqnum: 215
-}
-queries {
-  truckid: 14
-  seqnum: 214
-}
-queries {
-  truckid: 13
-  seqnum: 213
-}
-queries {
-  truckid: 12
-  seqnum: 212
-}
-queries {
-  truckid: 11
-  seqnum: 211
-}
-queries {
-  truckid: 10
-  seqnum: 210
-}
-queries {
-  truckid: 9
-  seqnum: 209
-}
-queries {
-  truckid: 8
-  seqnum: 208
-}
-queries {
-  truckid: 7
-  seqnum: 207
-}
-queries {
-  truckid: 6
-  seqnum: 206
-}
-queries {
-  truckid: 5
-  seqnum: 205
-}
-queries {
-  truckid: 4
-  seqnum: 204
-}
-queries {
-  truckid: 3
-  seqnum: 203
-}
-queries {
-  truckid: 2
-  seqnum: 202
-}
-queries {
-  truckid: 1
-  seqnum: 201
-}
-
-[worldsimulator_handler]sending acks to world simulator
-[worldsimulator_handler]sendCommands()
-[worldsimulator_handler]queries {
-  truckid: 20
-  seqnum: 240
-}
-queries {
-  truckid: 19
-  seqnum: 239
-}
-queries {
-  truckid: 18
-  seqnum: 238
-}
-queries {
-  truckid: 17
-  seqnum: 237
-}
-queries {
-  truckid: 16
-  seqnum: 236
-}
-queries {
-  truckid: 15
-  seqnum: 235
-}
-queries {
-  truckid: 14
-  seqnum: 234
-}
-queries {
-  truckid: 13
-  seqnum: 233
-}
-queries {
-  truckid: 12
-  seqnum: 232
-}
-queries {
-  truckid: 11
-  seqnum: 231
-}
-queries {
-  truckid: 10
-  seqnum: 230
-}
-queries {
-  truckid: 9
-  seqnum: 229
-}
-queries {
-  truckid: 8
-  seqnum: 228
-}
-queries {
-  truckid: 7
-  seqnum: 227
-}
-queries {
-  truckid: 6
-  seqnum: 226
-}
-queries {
-  truckid: 5
-  seqnum: 225
-}
-queries {
-  truckid: 4
-  seqnum: 224
-}
-queries {
-  truckid: 3
-  seqnum: 223
-}
-queries {
-  truckid: 2
-  seqnum: 222
-}
-queries {
-  truckid: 1
-  seqnum: 221
 }
 

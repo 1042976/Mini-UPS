@@ -81,7 +81,7 @@ void WorldSimulatorHandler::run() {
     thG.detach();
 
     UCommands changeSpeed;
-    changeSpeed.set_simspeed(1000);
+    changeSpeed.set_simspeed(100);
     clientSocket.sendMesg(changeSpeed);
 }
 
@@ -97,10 +97,8 @@ void WorldSimulatorHandler::handleNewResOrReq() {
     while (true) {
         try {
             sleepForSeconds(0.5);
-            cout << "clientSocket.recvMesg(uResponses);" << endl;
             UResponses uResponses;
             clientSocket.recvMesg(uResponses);
-            cout << "clientSocket.recvMesg(uResponses); ------ end" << endl;
             if (uResponses.ByteSizeLong() == 0) {
                 printMNTimes('@', 6,40);
                 continue;
@@ -190,7 +188,7 @@ void WorldSimulatorHandler::sendCommands() {
             clientSocket.sendMesg(uCommands);
         }
         munique.unlock();
-        sleepForSeconds(2.0);
+        sleepForSeconds(0.5);
     }
 }
 

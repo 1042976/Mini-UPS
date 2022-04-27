@@ -102,14 +102,14 @@ void UPSData::createTables() {
 
 void UPSData::cleanAllData() {
     work W(*C);
-    //string sqlAuthUser = "DELETE FROM AUTH_USER";
+//    string sqlAuthUser = "DELETE FROM AUTH_USER";
     string sqlPackage = "DELETE FROM PACKAGE";
     string sqlWarehouse = "DELETE FROM WAREHOUSE";
     string sqlItem = "DELETE FROM ITEM";
     string sqlTruck = "DELETE FROM TRUCK";
     //string sqlDelivered = "DELETE FROM DELIVERED";
    // string sqlShipment = "DELETE FROM SHIPMENT";
-    //W.exec(sqlAuthUser);
+//    W.exec(sqlAuthUser);
     W.exec(sqlPackage);
     W.exec(sqlWarehouse);
     W.exec(sqlItem);
