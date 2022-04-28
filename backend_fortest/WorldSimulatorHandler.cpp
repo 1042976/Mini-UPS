@@ -184,7 +184,7 @@ void WorldSimulatorHandler::sendCommands() {
                 reflection->AddAllocatedMessage(&uCommands, fieldDescriptor, new_entry);
                 ++it;
             }
-            printLog(uCommands.DebugString());
+            #printLog(uCommands.DebugString());
             clientSocket.sendMesg(uCommands);
         }
         munique.unlock();
