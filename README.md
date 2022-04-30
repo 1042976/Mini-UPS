@@ -64,4 +64,6 @@ DUKE-ECE568-FINAL
 
 - ##### Test with Mini-Amazon
 
-   
+#### Our Grade: 98/100
+
+Avg = 96.2, Median = 98
